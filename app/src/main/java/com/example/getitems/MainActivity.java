@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         Context ActivityContext = this;
 
         final TextView text = (TextView) findViewById(R.id.text2);
-        Button button = (Button) findViewById(R.id.button2);
+        final Button button = (Button) findViewById(R.id.button2);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
